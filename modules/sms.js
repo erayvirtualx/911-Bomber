@@ -742,7 +742,8 @@ async function smsBomber(phone, amount) {
         getir(n); yemeksepeti(n); tiklagelsin(n); migros(n); bim(n); a101(n); sok(n); istgelsin(n);
         
         // E-Ticaret & Hizmet
-        tasiyanlar(n); letgo(n); dolap(n); modanisa(n); ebebek(n); flo(n); boyner(n); 
+        
+        letgo(n); dolap(n); modanisa(n); ebebek(n); flo(n); boyner(n); 
         lcw(n); defacto(n); koctas(n); tekzen(n); hayaladasi(n); herseyburada(n); fuzul(n); 
         pazarama(n); tazedirekt(n); englishhome(n); madamecoco(n); evidea(n); civil(n); joker(n); 
         babymall(n); sobe(n);
