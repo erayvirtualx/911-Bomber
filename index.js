@@ -1,7 +1,7 @@
 const rl = require('readline-sync');
 const colors = require('colors');
 const title = require('./modules/title.js');
-const nineOneOne = require('./modules/sms.js'); // Modül ismini 911 ruhuna uygun güncelledik
+const smsBomber = require('./modules/sms.js'); // Modül ismini 911 ruhuna uygun güncelledik
 const { printBanner, printHackerLine, printStats } = require('./modules/ascii.js');
 const { loadingAnimation, typeWriter } = require('./modules/animations.js');
 
@@ -57,7 +57,7 @@ async function main() {
     console.log(chalk.green.bold('\n🔥 911 SMS BOMBER V1.0 BASLATILDI - SISTEM YUKLENIYOR 🔥\n'));
     
     // Ana bombardıman fonksiyonunu çağırıyoruz
-    await nineOneOne(telefon, miktar);
+    await smsBomber(telefon, miktar);
 }
 
 main().catch(error => {
