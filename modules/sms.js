@@ -777,7 +777,7 @@ async function smsBomber(phone, amount) {
 }
 
 // KURUCU İMZASI
-module.exports = { nineOneOne }; 
+module.exports = { smsBomber }; 
 
 console.log(chalk.red.bold("\n--- 911 SYSTEM READY ---"));
 console.log(chalk.white("Sistem Kurucu: 911 ERAY\n"));
