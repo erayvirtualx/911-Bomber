@@ -1,0 +1,40 @@
+{
+  "name": "911-sms-bomber",
+  "version": "1.0.0",
+  "description": "911 SMS Bomber V1.0 - Gelişmiş SMS Bombardıman Aracı",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "sms",
+    "bomber",
+    "911",
+    "erayvirtualx",
+    "termux"
+  ],
+  "author": "erayvirtualx",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "axios": "^1.15.2",
+    "chalk": "^4.1.2",
+    "colors": "^1.4.0",
+    "dayjs": "^1.11.10",
+    "faker": "^5.5.3",
+    "moment": "^2.29.4",
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10",
+    "request": "^2.88.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erayvirtualx/911-Bomber.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/erayvirtualx/911-Bomber/issues"
+  },
+  "homepage": "https://github.com/erayvirtualx/911-Bomber#readme"
+}
